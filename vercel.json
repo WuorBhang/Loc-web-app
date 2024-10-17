@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" },
+    { "source": "/api/stkpush", "destination": "/api/index" }
+  ],
+
+  "functions": {
+    "api/index.js": {
+      "maxDuration": 40
+    }
+  }
+}
